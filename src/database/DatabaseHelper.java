@@ -8,6 +8,10 @@ public class DatabaseHelper {
 
     }
 
+    public void test(){
+
+    }
+
     // добавляем новый канал в базу
     public void saveChannel() {
 
