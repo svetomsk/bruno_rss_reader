@@ -2,10 +2,10 @@ package xml;
 
 public class newsItem
 {
-    private String title;
-    private String link;
-    private String description;
-    private String pubDate;
+    private final String title;
+    private final String link;
+    private final String description;
+    private final String pubDate;
 
     public String getTitle() {
         return title;
@@ -32,7 +32,8 @@ public class newsItem
     }
 
     @Override
-    public String toString() {
+    public String toString()
+    {
         return "{title: " + title + ", link: " + link + ", description: " + description + "pubDate: " + pubDate + "}"+ "\n";
     }
 }
