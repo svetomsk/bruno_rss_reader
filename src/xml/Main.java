@@ -7,6 +7,6 @@ public class Main
     public static void main(String[] args) throws IOException
     {
         ReadXmlDomParser newDomParse = new ReadXmlDomParser();
-        newDomParse.rssParseTables();
+        System.out.println(newDomParse.rssParseTables("https://www.sport.ru/rssfeeds/football.rss").toString());
     }
 }

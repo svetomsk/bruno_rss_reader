@@ -31,4 +31,8 @@ public class newsItem
         this.pubDate = pubDate;
     }
 
+    @Override
+    public String toString() {
+        return "{title: " + title + ", link: " + link + ", description: " + description + "pubDate: " + pubDate + "}"+ "\n";
+    }
 }
