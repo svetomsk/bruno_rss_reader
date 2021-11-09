@@ -15,10 +15,9 @@ import java.util.List;
 
 public class ReadXmlDomParser
 {
-    public List<newsItem> tempArray = new ArrayList<>();
-
-    public List<newsItem> rssParseTables()
+    public List<newsItem> rssParseTables(String url)
     {
+        List<newsItem> tempArray = new ArrayList<>();
         // Instantiate the Factory
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 
@@ -26,7 +25,7 @@ public class ReadXmlDomParser
 
             // parse XML file
             DocumentBuilder db = dbf.newDocumentBuilder();
-            Document doc = db.parse("https://www.sport.ru/rssfeeds/football.rss");
+            Document doc = db.parse(url);
 
             doc.getDocumentElement().normalize();
 
