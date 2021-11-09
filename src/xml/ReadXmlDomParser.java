@@ -42,10 +42,6 @@ public class ReadXmlDomParser
                     String description = element.getElementsByTagName("description").item(0).getTextContent();
                     String pubDate = element.getElementsByTagName("pubDate").item(0).getTextContent();
 
-                    System.out.println("Title : " + title);
-                    System.out.println("Link : " + link);
-                    System.out.println("Description : " + description);
-                    System.out.println("Publication date : " + pubDate);
                     tempArray.add(new newsItem(title, link, description, pubDate));
                 }
             }
