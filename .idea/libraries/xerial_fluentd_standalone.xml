@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="xerial.fluentd.standalone" type="repository">
+    <properties maven-id="org.xerial:fluentd-standalone:0.1.2" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/xerial/fluentd-standalone/0.1.2/fluentd-standalone-0.1.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/xerial/xerial-core/3.2.2/xerial-core-3.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

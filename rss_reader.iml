@@ -8,5 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="w3c.dom" level="project" />
+    <orderEntry type="library" name="xerial.fluentd.standalone" level="project" />
   </component>
 </module>
